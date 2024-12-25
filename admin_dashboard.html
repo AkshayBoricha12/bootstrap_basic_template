@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div class="row" style="width: 100%">
+        <div class="col-3">
+          <div
+            class="sidebar text-light p-4"
+            style="background-color: #dd2f6e; height: 100vh"
+          >
+            <div class="sidebar-title">
+              <div class="row">
+                <div class="col d-flex align-items-center">
+                  <img
+                    src="accusoft.png"
+                    alt="logo"
+                    style="height: 50px; width: 50px; filter: invert(1)"
+                  />
+                  <span class="h2 ms-3">Accusoft</span>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div
+                class="col bg-light border rounded-start-pill"
+                style="color: #dd2f6e"
+              >
+                <div class="row py-3">
+                  <div class="col-1">
+                    <i class="fa-solid fa-gauge me-3"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Dashboard</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Customers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-list-check"></i>
+                  </div>
+                  <div class="col"><span class="ms-3">Projects</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Orders</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-warehouse"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Inventory</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-regular fa-circle-user"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Accounts</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4 pb-4">
+              <div class="col">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-list"></i>
+                  </div>
+                  <div class="col">
+                    <span class="ms-3">Tasks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div class="main-content">
+            <div class="row py-4 shadow">
+              <div class="col">
+                <i class="fa-solid fa-bars"></i>
+                <span class="ms-3 h5">Dashboard</span>
+              </div>
+              <div
+                class="col-2 d-flex align-items-center border border-secondary-subtle rounded-pill"
+              >
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="transform: rotateY(180deg)"
+                ></i>
+                <form>
+                  <input
+                    type="text"
+                    placeholder="Search here"
+                    class="form-control border-0"
+                  />
+                </form>
+              </div>
+              <div class="col text-end">
+                <img src="accusoft.png" alt="image" style="height: 40px" />
+                <span>John Doe</span>
+              </div>
+            </div>
+            <div class="main-content-bottom" style="background-color: #f0f5f9">
+              <div class="row p-3 gap-3">
+                <div class="col bg-light-subtle shadow-sm p-3">
+                  <div class="row">
+                    <div class="col-9"><h5>54</h5></div>
+                    <div class="col" style="color: #dd2f6e">
+                      <i class="fa-solid fa-users" style="font-size: 40px"></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-body-tertiary">Customers</div>
+                  </div>
+                </div>
+                <div class="col bg-light-subtle shadow-sm p-3">
+                  <div class="row">
+                    <div class="col-9"><h5>79</h5></div>
+                    <div class="col" style="color: #dd2f6e">
+                      <i
+                        class="fa-solid fa-list-check"
+                        style="font-size: 40px"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-body-tertiary">Projects</div>
+                  </div>
+                </div>
+                <div class="col shadow-sm p-3 bg-light-subtle">
+                  <div class="row">
+                    <div class="col-9"><h5>124</h5></div>
+                    <div class="col" style="color: #dd2f6e">
+                      <i
+                        class="fa-solid fa-bag-shopping"
+                        style="font-size: 40px"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-body-tertiary">Orders</div>
+                  </div>
+                </div>
+                <div
+                  class="col p-3 shadow-sm text-light"
+                  style="background-color: #dd2f6e"
+                >
+                  <div class="row">
+                    <div class="col-9"><h5>$6k</h5></div>
+                    <div class="col">
+                      <i
+                        class="fa-brands fa-nfc-directional"
+                        style="font-size: 40px"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">Income</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 recent-projects m-3 bg-light-subtle">
+                  <div class="recent-project-heading row">
+                    <div class="col d-flex justify-content-between p-3">
+                      <span class="h4">Recent Projects</span>
+                      <button
+                        class="btn text-light"
+                        style="background-color: #dd2f6e"
+                      >
+                        See all &rarr;
+                      </button>
+                    </div>
+                  </div>
+                  <hr class="text-secondary" />
+                  <div class="row py-3 m-0">
+                    <div class="col"><strong>Project Title</strong></div>
+                    <div class="col"><strong>Department</strong></div>
+                    <div class="col"><strong>Status</strong></div>
+                  </div>
+                  <hr class="text-secondary" />
+                  <div class="recent-projects-details px-3">
+                    <div class="row">
+                      <div class="col">UI/UX Design</div>
+                      <div class="col">UI Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: purple;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        review
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Web development</div>
+                      <div class="col">Frontend</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: #dd2f6e;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        in progress
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Ushop app</div>
+                      <div class="col">Mobile Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: orangered;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        pending
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">UI/UX Design</div>
+                      <div class="col">UI Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: purple;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        review
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Web development</div>
+                      <div class="col">Frontend</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: #dd2f6e;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        in progress
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Ushop app</div>
+                      <div class="col">Mobile Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: orangered;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        pending
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">UI/UX Design</div>
+                      <div class="col">UI Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: purple;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        review
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Web development</div>
+                      <div class="col">Frontend</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: #dd2f6e;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        in progress
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">Ushop app</div>
+                      <div class="col">Mobile Team</div>
+                      <div class="col d-flex align-items-center gap-3">
+                        <div
+                          class="status-color rounded-circle"
+                          style="
+                            background-color: orangered;
+                            height: 15px;
+                            width: 15px;
+                          "
+                        ></div>
+                        pending
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col new-customer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c1f77fdc81.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
